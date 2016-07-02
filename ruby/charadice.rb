@@ -42,7 +42,6 @@ until(actor_data) do
     # TODO: 終了方法の見直し(getchでの入力待機は Ctrl+C = U+0003 入力でのInterruptが発生しない)
     raise Interrupt
   end
-p c
 end
 
 char_name = nil
